@@ -49,7 +49,9 @@ end
 
 def count_elements(count)
   count.each do |x|
-  binding.pry
+    x.each do |a, b|
+  #binding.pry
+    end
   end
 end
 
