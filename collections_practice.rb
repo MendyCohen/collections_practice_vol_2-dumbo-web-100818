@@ -33,10 +33,6 @@ end
 #   strings_only
 # end
 
-def remove_non_strings(arr)
-  arr.delete_if {|el| el.class != String}
-end
-
 # def remove_non_strings(strings_only)
 #   string = []
 #   strings_only.each do |strings|
@@ -46,3 +42,8 @@ end
 #   end 
 #   string
 # end
+
+def remove_non_strings(arr)
+  arr.delete_if {|el| el.class != String}
+end
+
