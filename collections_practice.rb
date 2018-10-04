@@ -49,7 +49,7 @@ end
 
 def count_elements(counting)
   count = 0
-  name = nil
+  name = []
   counting.each do |x|
     x.each do |a, b|
       name = b
