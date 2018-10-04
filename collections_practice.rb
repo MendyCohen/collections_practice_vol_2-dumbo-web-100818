@@ -55,6 +55,7 @@ def count_elements(counting)
       if name == b
         count += 1
   binding.pry
+      end
     end
   end
 end
