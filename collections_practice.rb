@@ -62,3 +62,17 @@ def count_elements(counting)
 end
 
 
+def count_elements(counting)
+  count = 0
+  name = []
+  counting.each do |x|
+    x.each do |a, b|
+      name << b
+      name.each do |y|
+        if y == b
+        count += 1
+  binding.pry
+      end
+    end
+  end
+end
