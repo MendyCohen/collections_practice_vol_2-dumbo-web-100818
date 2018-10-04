@@ -50,7 +50,7 @@ end
 def count_elements(count)
   count.each do |x|
     x.each do |a, b|
-  #binding.pry
+  binding.pry
     end
   end
 end
