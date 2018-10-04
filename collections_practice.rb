@@ -14,21 +14,33 @@ def first_wa(wa)
   wa.find_all {|x| x.to_s.start_with?("wa")}.first
 end
 
-def remove_non_strings(strings_only)
-  strings_only.each do |strings|
-    if strings != strings.to_s
-     strings_only.delete(strings)
-    end
-  end 
-  strings_only
-end
+# def remove_non_strings(strings_only)
+#   strings_only.each do |strings|
+#     if strings != strings.to_s
+#     strings_only.delete(strings)
+#     end
+#   end 
+#   strings_only
+# end
 
 
+# def remove_non_strings(strings_only)
+#   strings_only.each do |strings|
+#     if !strings.is_a?(String)
+#     strings_only.delete(strings)
+#     end
+#   end 
+#   strings_only
+# end
+
+
+
 def remove_non_strings(strings_only)
+  string = []
   strings_only.each do |strings|
-    if !strings.is_a?(String)
-     strings_only.delete(strings)
+    if strings.is_a?(String)
+      string << strings
     end
   end 
-  strings_only
+  string
 end
