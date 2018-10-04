@@ -47,8 +47,9 @@ def remove_non_strings(arr)
   arr.delete_if {|el| el.class != String}
 end
 
-def count_elements(count)
-  count.each do |x|
+def count_elements(counting)
+  
+  counting.each do |x|
     x.each do |a, b|
   binding.pry
     end
