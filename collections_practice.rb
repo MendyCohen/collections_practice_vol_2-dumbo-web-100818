@@ -33,7 +33,15 @@ end
 #   strings_only
 # end
 
-
+def remove_non_strings(strings_only)
+  string = []
+  strings_only.each do |strings|
+    if strings.is_a?(String)
+      string << strings
+    end
+  end 
+  string
+end
 
 def remove_non_strings(strings_only)
   string = []
