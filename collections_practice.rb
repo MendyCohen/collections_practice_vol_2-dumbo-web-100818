@@ -68,7 +68,6 @@ def count_elements(counting)
   counting.each do |x|
     x.each do |a, b|
       name.each do |y|
-        name << b
         if y == b
         count += 1
   binding.pry
