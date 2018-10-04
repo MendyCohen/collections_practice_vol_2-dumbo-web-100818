@@ -48,8 +48,9 @@ def remove_non_strings(arr)
 end
 
 def count_elements(count)
-  
-  #binding.pry
+  count.each do |x, y|
+  binding.pry
+  end
 end
 
 
