@@ -53,8 +53,8 @@ def count_elements(counting)
   counting.each do |x|
     x.each do |a, b|
       if name == b
+        binding.pry
         count += 1
-  binding.pry
       end
     end
   end
