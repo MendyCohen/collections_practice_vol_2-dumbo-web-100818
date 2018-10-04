@@ -72,6 +72,7 @@ def count_elements(counting)
         if y == b
         count += 1
   binding.pry
+        end
       end
     end
   end
