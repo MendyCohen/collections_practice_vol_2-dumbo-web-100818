@@ -47,3 +47,6 @@ def remove_non_strings(arr)
   arr.delete_if {|el| el.class != String}
 end
 
+def count_elements(count)
+  binding.pry
+end
