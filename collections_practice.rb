@@ -52,7 +52,8 @@ def count_elements(counting)
   name = nil
   counting.each do |x|
     x.each do |a, b|
-      
+      if name == b
+        count += 1
   binding.pry
     end
   end
