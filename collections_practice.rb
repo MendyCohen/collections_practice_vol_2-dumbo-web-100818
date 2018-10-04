@@ -48,7 +48,7 @@ def remove_non_strings(arr)
 end
 
 def count_elements(count)
-  binding.pry
+  #binding.pry
 end
 
 
